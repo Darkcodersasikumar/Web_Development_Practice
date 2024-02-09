@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.checkoutNavbar{
+    background-color: #131921;
+    padding: 15px;
+    display: flex;
+}
+
+.checkoutNavbarLogo{
+    height: 35px;
+}
+
+.checkoutNavbarMiddle{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.checkoutName{
+    color: white;
+    font-size: 20px;
+}
+
+.checkoutGrid{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+}

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.wholeNavbarCss {
+    background-color: #131921;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarLogo {
+    padding: 7px;
+}
+
+.amazonMainLogo {
+    height: 35px;
+    margin: 15px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.navBarSearchBar {
+    display: flex;
+    height: 40px;
+}
+
+#categories {
+    border: none;
+    width: 50%;
+    padding: 10px 5px 10px 10px;
+    background-color: gainsboro;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.navBarSearchBarButton {
+    font-size: 15px;
+    background-color: #febd69;
+    padding: 7px 10px 7px 10px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.navBarSearchBarInput {
+    padding: 10px 15px;
+    min-width: 40vw;
+    border: none;
+    font-size: 15px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.navBarReturn {
+    line-height: 17px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.navBarReturnInner {
+    font-weight: bold;
+}
+
+.navBarReturnLink {
+    text-decoration: none;
+    color: white;
+}
+
+.navBarCart {
+    color: white;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.navBarCartValue {
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    color: #e48305;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.cartIcon {
+    width: 47px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.navBarPart {
+    display: flex;
+    align-items: center;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.productContainer {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid rgb(231, 231, 231);
+    border-bottom: 1px solid rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.productImagePart {
+    height: 180px;
+}
+
+.productImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.productRatingPart{
+    width: 110px;
+    margin-bottom: 5px;
+}
+
+.productName{
+    margin-bottom: 5px;
+    height: 70px;
+}
+
+.productQuantity{
+    margin-bottom: 15px;
+}
+
+.productQuantitySelect{
+    padding: 5px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.productQuantityOption{
+    cursor: pointer;
+}
+
+.productPrice{
+    margin-bottom: 6px;
+}
+
+.addToCartButton{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #febd69;
+    cursor: pointer;
+}
